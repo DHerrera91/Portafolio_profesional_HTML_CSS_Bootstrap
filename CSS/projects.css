@@ -1,0 +1,39 @@
+* {
+  border-radius: 5px;
+}
+
+/* Aqui pondre mis estilos para el cuerpo del documento */
+body {
+  background-image: url("https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows: repeat(12, 1fr); */
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  max-height: 80px;
+}
+
+.custom-opacity {
+  background-color: rgba(220, 215, 215, 0.349);
+}
+
+.project-card {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card .card-body {
+  padding: 20px;
+}

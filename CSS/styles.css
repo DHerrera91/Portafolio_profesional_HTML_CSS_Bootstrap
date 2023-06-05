@@ -1,0 +1,58 @@
+* {
+  border-radius: 5px;
+}
+
+/* Aqui pondre mis estilos para el cuerpo del documento */
+body {
+  background-image: url("https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows: repeat(12, 1fr); */
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-opacity {
+  background-color: rgba(220, 215, 215, 0.349);
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 50%;
+  padding: 5px;
+  box-shadow: 5px 10px 12px black;
+  border-radius: 50%;
+}
+
+/* Estilos para la seccion principla de la pagina */
+section {
+  grid-row: 4/6;
+  /* grid-column: 1/-1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /*Espacio de relleno*/
+  gap: 10px; /*Espacio para los articles que serian los hijos*/
+  margin-bottom: 80px;
+}
+
+/* Estilos para los articles, hijos de section */
+article {
+  background-color: #cfcec96c;
+  height: 100%;
+  width: 80%;
+  /* place-content: center; */
+  align-items: center;
+  justify-content: end;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #8f00ff;
+  grid-column: 1/-1;
+  grid-row: 12;
+  display: grid;
+  place-content: center;
+}
